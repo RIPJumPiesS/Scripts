@@ -1,0 +1,275 @@
+--[[" Script Hunter "]] 
+--[["Anwarun Yt"]]
+
+-- Objects
+
+local Em = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local Mm = Instance.new("TextButton")
+local S = Instance.new("TextButton")
+local Be = Instance.new("TextButton")
+local Aa = Instance.new("TextButton")
+local Bb = Instance.new("TextButton")
+local Rr = Instance.new("TextButton")
+local Hr = Instance.new("TextButton")
+local Lf = Instance.new("TextButton")
+local Rg = Instance.new("TextButton")
+local Hh = Instance.new("TextButton")
+local Tt = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+-- Properties
+
+Em.Name = "Em"
+Em.Parent = game.CoreGui
+Em.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Em
+Frame.Active = true
+Frame.Draggable = true
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.Position = UDim2.new(0.221494108, 0, 0.289575279, 0)
+Frame.Size = UDim2.new(0, 425, 0, 217)
+Frame.Style = Enum.FrameStyle.RobloxRound
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.new(0, 0, 0)
+Title.BorderColor3 = Color3.new(1, 1, 1)
+Title.BorderSizePixel = 3
+Title.Position = UDim2.new(0.0700259954, 0, -0.226559192, 0)
+Title.Size = UDim2.new(0, 351, 0, 31)
+Title.Font = Enum.Font.SciFi
+Title.Text = "Epic Minigames Gui"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextSize = 23
+
+X.Name = "X"
+X.Parent = Title
+X.BackgroundColor3 = Color3.new(0, 0, 0)
+X.BorderColor3 = Color3.new(1, 1, 1)
+X.BorderSizePixel = 3
+X.Position = UDim2.new(0.900284886, 0, -0.0322578177, 0)
+X.Size = UDim2.new(0, 35, 0, 32)
+X.Font = Enum.Font.GothamBold
+X.Text = "X"
+X.TextColor3 = Color3.new(1, 1, 1)
+X.TextSize = 23
+
+Mm.Name = "Mm"
+Mm.Parent = Frame
+Mm.BackgroundColor3 = Color3.new(0, 0, 0)
+Mm.BorderColor3 = Color3.new(1, 1, 1)
+Mm.BorderSizePixel = 2
+Mm.Position = UDim2.new(0.00670453347, 0, 0.00921658985, 0)
+Mm.Size = UDim2.new(0, 118, 0, 25)
+Mm.Font = Enum.Font.SciFi
+Mm.Text = "Manic Mining"
+Mm.TextColor3 = Color3.new(1, 1, 1)
+Mm.TextSize = 20
+
+S.Name = "S"
+S.Parent = Frame
+S.BackgroundColor3 = Color3.new(0, 0, 0)
+S.BorderColor3 = Color3.new(1, 1, 1)
+S.BorderSizePixel = 2
+S.Position = UDim2.new(0.352586895, 0, 0.00921658985, 0)
+S.Size = UDim2.new(0, 118, 0, 25)
+S.Font = Enum.Font.SciFi
+S.Text = "Sweeper"
+S.TextColor3 = Color3.new(1, 1, 1)
+S.TextSize = 20
+
+Be.Name = "Be"
+Be.Parent = Frame
+Be.BackgroundColor3 = Color3.new(0, 0, 0)
+Be.BorderColor3 = Color3.new(1, 1, 1)
+Be.BorderSizePixel = 2
+Be.Position = UDim2.new(0.689057469, 0, 0.00921658985, 0)
+Be.Size = UDim2.new(0, 118, 0, 25)
+Be.Font = Enum.Font.SciFi
+Be.Text = "Bullet Evasion"
+Be.TextColor3 = Color3.new(1, 1, 1)
+Be.TextSize = 20
+
+Aa.Name = "Aa"
+Aa.Parent = Frame
+Aa.BackgroundColor3 = Color3.new(0, 0, 0)
+Aa.BorderColor3 = Color3.new(1, 1, 1)
+Aa.BorderSizePixel = 2
+Aa.Position = UDim2.new(0.689057469, 0, 0.202764973, 0)
+Aa.Size = UDim2.new(0, 118, 0, 25)
+Aa.Font = Enum.Font.SciFi
+Aa.Text = "Aztec Adventure"
+Aa.TextColor3 = Color3.new(1, 1, 1)
+Aa.TextScaled = true
+Aa.TextSize = 20
+Aa.TextWrapped = true
+
+Bb.Name = "Bb"
+Bb.Parent = Frame
+Bb.BackgroundColor3 = Color3.new(0, 0, 0)
+Bb.BorderColor3 = Color3.new(1, 1, 1)
+Bb.BorderSizePixel = 2
+Bb.Position = UDim2.new(0.352586895, 0, 0.202764973, 0)
+Bb.Size = UDim2.new(0, 118, 0, 25)
+Bb.Font = Enum.Font.SciFi
+Bb.Text = "Bullet Bound"
+Bb.TextColor3 = Color3.new(1, 1, 1)
+Bb.TextSize = 20
+
+Rr.Name = "Rr"
+Rr.Parent = Frame
+Rr.BackgroundColor3 = Color3.new(0, 0, 0)
+Rr.BorderColor3 = Color3.new(1, 1, 1)
+Rr.BorderSizePixel = 2
+Rr.Position = UDim2.new(0.00670453813, 0, 0.202764973, 0)
+Rr.Size = UDim2.new(0, 118, 0, 25)
+Rr.Font = Enum.Font.SciFi
+Rr.Text = "Round Race"
+Rr.TextColor3 = Color3.new(1, 1, 1)
+Rr.TextSize = 20
+
+Hr.Name = "Hr"
+Hr.Parent = Frame
+Hr.BackgroundColor3 = Color3.new(0, 0, 0)
+Hr.BorderColor3 = Color3.new(1, 1, 1)
+Hr.BorderSizePixel = 2
+Hr.Position = UDim2.new(0.00670453813, 0, 0.387096763, 0)
+Hr.Size = UDim2.new(0, 118, 0, 25)
+Hr.Font = Enum.Font.SciFi
+Hr.Text = "High rolling"
+Hr.TextColor3 = Color3.new(1, 1, 1)
+Hr.TextSize = 20
+
+Lf.Name = "Lf"
+Lf.Parent = Frame
+Lf.BackgroundColor3 = Color3.new(0, 0, 0)
+Lf.BorderColor3 = Color3.new(1, 1, 1)
+Lf.BorderSizePixel = 2
+Lf.Position = UDim2.new(0.352586895, 0, 0.387096763, 0)
+Lf.Size = UDim2.new(0, 118, 0, 25)
+Lf.Font = Enum.Font.SciFi
+Lf.Text = "Lava Forecast"
+Lf.TextColor3 = Color3.new(1, 1, 1)
+Lf.TextSize = 20
+
+Rg.Name = "Rg"
+Rg.Parent = Frame
+Rg.BackgroundColor3 = Color3.new(0, 0, 0)
+Rg.BorderColor3 = Color3.new(1, 1, 1)
+Rg.BorderSizePixel = 2
+Rg.Position = UDim2.new(0.686704576, 0, 0.387096763, 0)
+Rg.Size = UDim2.new(0, 118, 0, 25)
+Rg.Font = Enum.Font.SciFi
+Rg.Text = "Rocket Game"
+Rg.TextColor3 = Color3.new(1, 1, 1)
+Rg.TextSize = 20
+
+Hh.Name = "Hh"
+Hh.Parent = Frame
+Hh.BackgroundColor3 = Color3.new(0, 0, 0)
+Hh.BorderColor3 = Color3.new(1, 1, 1)
+Hh.BorderSizePixel = 2
+Hh.Position = UDim2.new(0.0690957457, 0, 0.58493495, 0)
+Hh.Size = UDim2.new(0, 151, 0, 36)
+Hh.Font = Enum.Font.SciFi
+Hh.Text = "Haunted hallways"
+Hh.TextColor3 = Color3.new(1, 1, 1)
+Hh.TextSize = 20
+
+Tt.Name = "Tt"
+Tt.Parent = Frame
+Tt.BackgroundColor3 = Color3.new(0, 0, 0)
+Tt.BorderColor3 = Color3.new(1, 1, 1)
+Tt.BorderSizePixel = 2
+Tt.Position = UDim2.new(0.560860455, 0, 0.58493495, 0)
+Tt.Size = UDim2.new(0, 151, 0, 36)
+Tt.Font = Enum.Font.SciFi
+Tt.Text = "Trial Traversing"
+Tt.TextColor3 = Color3.new(1, 1, 1)
+Tt.TextSize = 20
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.254072487, 0, 0.904515743, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 19)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Made By: Script Hunter - Anwarun"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 20
+
+local player = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart
+--Script
+
+X.MouseButton1Click:Connect(function()
+	Em:Destroy()
+end)
+
+Mm.MouseButton1Click:connect(function()
+	for i,kontol in pairs(game.Workspace["Manic Mining"].emerald:GetChildren()) do
+		kontol.CFrame = player.CFrame
+	end
+end)
+
+S.MouseButton1Click:connect(function()
+	game.Workspace["The Sweeper"].sweeper:Destroy()
+end)
+
+Be.MouseButton1Click:connect(function()
+repeat wait()
+	for i,v in pairs(game.Workspace["Bullet Evasion"].bullets.bullet:GetChildren()) do
+		v.Destroy()
+	end
+	local map = game.Workspace["Bullet Evasion"]
+	until map == nil
+end)
+
+Rr.MouseButton1Click:connect(function()
+	local goal = game.Workspace["Round Race"].Goal:FindFirstChild('Goal')
+    player.CFrame = goal.CFrame
+end)
+
+Bb.MouseButton1Click:connect(function()
+	local goal = game.Workspace["Bullet Bound"].Goal:FindFirstChild('Goal')
+    player.CFrame = goal.CFrame
+end)
+
+Aa.MouseButton1Click:connect(function()
+	local goal = game.Workspace["Aztec Adventure"].Goal:FindFirstChild('Goal')
+    player.CFrame = goal.CFrame
+end)
+
+Hh.MouseButton1Click:connect(function()
+	local goal = game.Workspace["Haunted Hallways"].Goal:FindFirstChild('Goal')
+    player.CFrame = goal.CFrame
+end)
+
+Hh.MouseButton1Click:connect(function()
+	local goal = game.Workspace["High-Rolling"].Goal:FindFirstChild('Goal')
+    player.CFrame = goal.CFrame
+end)
+
+Tt.MouseButton1Click:connect(function()
+	local goal = game.Workspace["Trial Traversing"].Goal:FindFirstChild('Goal')
+    player.CFrame = goal.CFrame
+end)
+
+Lf.MouseButton1Click:connect(function()
+	repeat wait()
+	local lava = game.Workspace["Lava Forecast"].lavarain
+    for i,v in pairs(lava:GetChildren()) do
+	v.Destroy()
+end
+local map = game.Workspace["Lava Forecast"]
+until map == nil
+end)
+
+Rg.MouseButton1Click:connect(function()
+	repeat wait()
+	game.Workspace.AntiRobax.RocketLauncher.RemoteEvent:FireServer()
+	until game.Workspace.AntiRobax.RocketLauncher == nil
+end)
